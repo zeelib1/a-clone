@@ -1,5 +1,5 @@
 :shopping: A-Clone :shopping_cart:
-## E-Commerce Simulation
+## E-Commerce Simulation :point_right: [Lemonade stand](https://www.zeelib.com/projects/amazon)
 
 # Client
 * React.js (Context API)
