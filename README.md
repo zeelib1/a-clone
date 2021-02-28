@@ -1,4 +1,4 @@
-#:shopping: A-Clone :shopping:
+:shopping: A-Clone :shopping_cart:
 ## E-Commerce Simulation
 
 # Client
