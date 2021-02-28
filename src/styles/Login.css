@@ -1,0 +1,106 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  line-height: 1.4;
+}
+.login {
+  max-width: 20%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.wrapper img {
+  max-width: 110px;
+  object-fit: contain;
+}
+.login h1 {
+  font-weight: 400;
+}
+.login label {
+  font-weight: 500;
+  line-height: 2.5;
+}
+.login__signInBox {
+  margin: 1em;
+  border: 1px solid lightgray;
+  border-radius: 0.5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.login__form input {
+  margin-bottom: 0.5em;
+}
+.login__forgotPassword {
+  margin-left: 1.8em;
+}
+
+.login__conditions {
+  color: #215d93;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.login__conditions__input {
+  display: flex;
+}
+.login__conditions__input span {
+  margin-left: 0.5em;
+}
+
+.login__button {
+  background: linear-gradient(to bottom, #f6c88f, #ed9220);
+  padding: 0.25em;
+  border: 1px solid;
+  margin-top: 1em;
+  color: var(--bg-color);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  cursor: pointer;
+}
+hr {
+  width: 5vw;
+  display: inline-block;
+  color: lightgray;
+  border: 1px solid lightgrey;
+}
+.login__hrLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8em;
+}
+.login__hrOne {
+  margin-right: 0.25em;
+}
+.login__hrTwo {
+  margin-left: 0.25em;
+}
+
+.login__hrLine span {
+  color: grey;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.login__newAccountButton {
+  border-radius: 0.15em;
+  border: 1px solid lightgrey;
+  color: var(--bg-color);
+  padding: 0.25em;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  border: 1px solid;
+  margin-top: 1em;
+  cursor: pointer;
+}

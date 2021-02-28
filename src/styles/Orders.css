@@ -1,0 +1,70 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 1em;
+}
+button {
+  font-size: 1rem;
+
+  background: linear-gradient(to bottom, #f6c88f, #ed9220);
+  height: 2.2em;
+  padding: 0.25em;
+  border: 1px solid;
+  margin-top: 1em;
+  color: var(--bg-color);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+}
+.orders__info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+
+.ordersInfo__leftPane {
+  display: flex;
+}
+.ordersInfo__leftPane div {
+  margin-left: 3em;
+}
+.ordersInfo__rightPane {
+  margin-left: 3em;
+}
+
+.orders__products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orders__username {
+  text-transform: capitalize;
+}
+.order__empty {
+  /* width: 80%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-image: url("https://logodix.com/logo/233733.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center; */
+}
+.orders__loading {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/25702a69321565.5b7d0cbe75e1a.gif");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}

@@ -1,0 +1,23 @@
+.homeLoginBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 19vw;
+  height: 10vw;
+  background-color: white;
+  padding: 1.2em;
+  border: 1px solid #dddddd;
+  border-radius: 0.3em;
+}
+.homeLoginBox h2 {
+  font-weight: normal;
+}
+.homeLoginBox h2::first-letter {
+  text-transform: capitalize;
+}
+
+@media (max-width: 875px) {
+  .homeLoginBox {
+    display: none;
+  }
+}

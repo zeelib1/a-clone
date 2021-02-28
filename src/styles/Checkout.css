@@ -1,0 +1,34 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 90%;
+  max-height: 100%;
+  margin-bottom: 0.875em;
+}
+
+.checkout__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  margin-right: 0.875em;
+  padding: 0.875em;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout__title p::first-letter {
+  text-transform: capitalize;
+  margin-left: 0.2em;
+}
+@media(max-width:875px) {
+  .checkout{
+    flex-direction: column;
+  }
+ 
+  
+}

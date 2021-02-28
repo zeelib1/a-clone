@@ -1,0 +1,17 @@
+:root {
+  font-size: calc(0.5em + 0.4vw);
+  box-sizing: border-box;
+  /* #F3D078 */
+  --orange: #F3D078;
+  --orange-hover: rgb(254, 189, 105);
+  --bg-color: #131921;
+  overflow-x: hidden;
+}
+
+*,
+::after,
+::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
