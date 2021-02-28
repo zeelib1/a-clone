@@ -6,7 +6,7 @@
 * HTML, CSS
 * Icons (Material UI/icons)
 * 
-* **Server
+# Server
 * Firebase Auth
 * Firestore - NoSQL
 
