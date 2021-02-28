@@ -11,8 +11,8 @@
 * Firestore - NoSQL
 
 # Features
-* Authentication
+* Login auth
 * Product selection
-* Checkout
-* Order history per per user
+* Cart checkout
+* Order history per user/date
 
