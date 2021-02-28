@@ -5,7 +5,7 @@
 * React.js (Context API)
 * HTML, CSS
 * Icons (Material UI/icons)
-* 
+
 # Server
 * Firebase Auth
 * Firestore - NoSQL
